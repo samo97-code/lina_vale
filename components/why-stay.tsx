@@ -35,7 +35,7 @@ export function WhyStay() {
 
           <div className="mt-8 space-y-2 text-sm leading-relaxed text-[#A7A7B3] lg:text-base lg:leading-relaxed">
             <p>
-              {"Because it's not just visuals it's atmosphere."}
+              {"Because this isn\u2019t content. It\u2019s a mood."}
             </p>
             <p>
               {"Not just desire intention."}
