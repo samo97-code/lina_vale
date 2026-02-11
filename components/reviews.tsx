@@ -75,10 +75,6 @@ export function Reviews() {
                     ))}
                 </div>
             </div>
-
-            <p className="mt-12 text-center text-sm italic text-[#A7A7B3]/60">
-                Real members. Real feelings. Real connection.
-            </p>
         </SectionReveal>
     )
 }

@@ -29,7 +29,7 @@ export function Benefits() {
           What you receive
         </h2>
         <p className="mt-3 text-sm text-[#A7A7B3] lg:text-base">
-          {"What you see is only the surface."}
+          {"More than content an experience."}
         </p>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">

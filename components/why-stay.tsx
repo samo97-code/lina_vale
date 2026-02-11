@@ -59,10 +59,6 @@ export function WhyStay() {
           <p className="mt-6 text-xs tracking-widest uppercase text-[#C9A35A]/80">
             New private drops every week.
           </p>
-
-          <p className="mt-4 font-serif text-sm italic text-[#F3D7C9]/70">
-            {"If you feel it\u2026 you already belong."}
-          </p>
         </div>
       </div>
     </SectionReveal>
