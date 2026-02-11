@@ -1,7 +1,7 @@
 import React from "react"
 import type { Metadata } from "next"
 import { Inter, Playfair_Display } from "next/font/google"
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 const inter = Inter({
@@ -54,6 +54,7 @@ export default function RootLayout({
         {children}
         <Analytics />
         <div className="film-grain" aria-hidden="true" />
+        <Analytics />
       </body>
     </html>
   )
