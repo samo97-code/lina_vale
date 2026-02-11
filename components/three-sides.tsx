@@ -46,6 +46,9 @@ export function ThreeSides() {
                 <h2 className="font-serif text-3xl font-bold text-[#FFF3E8] lg:text-4xl">
                     Your version of me
                 </h2>
+                <p className="mt-3 text-sm text-[#A7A7B3] lg:text-base">
+                    Which Lina feels like yours?
+                </p>
 
                 <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-3">
                     {versions.map((v, i) => (
