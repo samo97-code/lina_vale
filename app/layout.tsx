@@ -52,6 +52,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <body className="font-sans antialiased">
         {children}
+        <Analytics />
         <div className="film-grain" aria-hidden="true" />
         <Analytics />
       </body>
