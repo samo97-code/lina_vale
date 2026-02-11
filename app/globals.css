@@ -10,7 +10,7 @@
 
 @layer base {
   :root {
-    --background: 240 14% 4%;
+    --background: 240 20% 4%;
     --foreground: 30 100% 95%;
     --card: 240 14% 8%;
     --card-foreground: 30 100% 95%;
@@ -65,14 +65,14 @@
 
 /* Gold gradient button */
 .btn-gold {
-  background: linear-gradient(135deg, #C9A35A 0%, #E8C97A 50%, #C9A35A 100%);
-  border: 1px solid rgba(201, 163, 90, 0.4);
-  color: #0B0B0F;
+  background: linear-gradient(135deg, #CFA55A 0%, #E6C87A 50%, #CFA55A 100%);
+  border: 1px solid rgba(207, 165, 90, 0.4);
+  color: #0A0B0F;
   transition: all 0.3s ease;
 }
 .btn-gold:hover {
-  background: linear-gradient(135deg, #D4AE65 0%, #F0D485 50%, #D4AE65 100%);
-  box-shadow: 0 0 30px rgba(201, 163, 90, 0.3);
+  background: linear-gradient(135deg, #D9B065 0%, #F0D48A 50%, #D9B065 100%);
+  box-shadow: 0 0 30px rgba(207, 165, 90, 0.3);
 }
 
 /* Shine sweep on hover */

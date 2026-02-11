@@ -49,7 +49,7 @@ const config: Config = {
         cream: "var(--cream)",
       },
       fontFamily: {
-        sans: ["var(--font-manrope)"],
+        sans: ["var(--font-inter)"],
         serif: ["var(--font-playfair)"],
       },
       borderRadius: {

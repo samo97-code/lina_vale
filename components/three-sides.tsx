@@ -7,6 +7,12 @@ import {SectionReveal} from "./section-reveal"
 
 const versions = [
     {
+        title: "Midnight Lina",
+        body: "For men who like mystery, calm, and quiet tension.",
+        src: "/images/lina-soft.png",
+        grayscale: false,
+    },
+    {
         title: "Morning Lina",
         body: "For men who like warmth, softness, and closeness.",
         src: "/images/lina-playful.png",
@@ -16,12 +22,6 @@ const versions = [
         title: "Playful Lina",
         body: "For men who like fun, teasing, and flirty energy.",
         src: "/images/lina-bold.png",
-        grayscale: false,
-    },
-    {
-        title: "Midnight Lina",
-        body: "For men who like mystery, calm, and quiet tension.",
-        src: "/images/lina-soft.png",
         grayscale: false,
     },
 ]

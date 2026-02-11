@@ -1,27 +1,18 @@
 import { Hero } from "@/components/hero"
-import { TrustStrip } from "@/components/trust-strip"
-import { SignatureVideo } from "@/components/signature-video"
-import { ThreeSides } from "@/components/three-sides"
+import { SocialProof } from "@/components/social-proof"
+import { ViralHook } from "@/components/viral-hook"
 import { EmotionalStory } from "@/components/emotional-story"
-import { BlurredTeaser } from "@/components/blurred-teaser"
-import { WhoIsLina } from "@/components/who-is-lina"
-import { CinematicAesthetic } from "@/components/cinematic-aesthetic"
 import { Benefits } from "@/components/benefits"
+import { ThreeSides } from "@/components/three-sides"
 import { Gallery } from "@/components/gallery"
 import { WhyStay } from "@/components/why-stay"
-import { InsideFanvue } from "@/components/inside-fanvue"
-import { AccessCard } from "@/components/access-card"
-import { Psychology } from "@/components/psychology"
 import { Reviews } from "@/components/reviews"
-import { FAQ } from "@/components/faq"
-import { HowItWorks } from "@/components/how-it-works"
+import { SeoAbout } from "@/components/seo-about"
 import { FinalCTA } from "@/components/final-cta"
 import { SiteFooter } from "@/components/site-footer"
 import { StickyCTA } from "@/components/sticky-cta"
 import { StickyHeader } from "@/components/sticky-header"
-import { SeductiveQuoteBand } from "@/components/seductive-quote-band"
 import { GoldParticles } from "@/components/gold-particles"
-import { StickyQuote } from "@/components/sticky-quote"
 
 function Divider() {
   return (
@@ -33,41 +24,25 @@ export default function Page() {
   return (
     <main className="relative min-h-screen bg-background text-foreground">
       <GoldParticles />
-      <StickyQuote />
       <StickyHeader />
       <Hero />
-      <TrustStrip />
+      <SocialProof />
       <Divider />
-      <SignatureVideo />
-      <Divider />
-      <ThreeSides />
+      <ViralHook />
       <Divider />
       <EmotionalStory />
       <Divider />
-      <BlurredTeaser />
+      <Benefits />
+      <Divider />
+      <ThreeSides />
       <Divider />
       <Gallery />
       <Divider />
-      <WhoIsLina />
-      <Divider />
-      <CinematicAesthetic />
-      <Divider />
-      <Benefits />
-      <Divider />
       <WhyStay />
-      <Divider />
-      <InsideFanvue />
-      <Divider />
-      <AccessCard />
-      <Divider />
-      <Psychology />
       <Divider />
       <Reviews />
       <Divider />
-      <FAQ />
-      <Divider />
-      <HowItWorks />
-      <SeductiveQuoteBand />
+      <SeoAbout />
       <FinalCTA />
       <SiteFooter />
       <StickyCTA />
